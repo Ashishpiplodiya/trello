@@ -457,7 +457,7 @@ public class Home_Page
 				actionUtil.waitForElement(lnkLogout, "logout Link");
 				actionUtil.clickOnElement(lnkLogout, "logout Link");
 				
-				actionUtil.isElementDisplayed(btnLogin, "Login Button");
+				actionUtil.isElementDisplayed(btnLogin, "Home Page");
 				
 				actionUtil.pass("Logout From The Application Successfully");
 				
